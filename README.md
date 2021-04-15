@@ -49,4 +49,3 @@
 * Soal nya self nya ngedeketin 
 * Owner biar bisa 
 * Di gunain bot nya !!
-* 

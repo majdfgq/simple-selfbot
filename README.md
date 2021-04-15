@@ -42,3 +42,9 @@
 # TQ BRE
 * [BALIEYS](https://github.com/adiwajshing/Baileys)
 * [MHANKBARBAR](https://github.com/MhankBarBar)
+
+# NOTE 
+* Jangan lupa ganti nomor owner nya 
+* Soal nya self nya ngedeketin 
+* Owner biar bisa 
+* Di gunain bot nya !!

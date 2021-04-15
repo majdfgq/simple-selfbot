@@ -12,3 +12,11 @@
 <p align="center">
   <a href="https://github.com/hazn-ini-bre"><img title="Author" src="https://img.shields.io/badge/Author-Hazn-red.svg?style=for-the-badge&logo=github" /></a>
 </p>
+
+## Termux 
+```bash
+> pkg install nodejs -y && pkg install git && pkg install ffampeg
+> git clone https://github.com/hazn-ini-bre/simple-selfbot
+> cd simple-selfbot
+> npm i 
+```

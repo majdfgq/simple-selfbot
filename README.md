@@ -45,7 +45,8 @@
 
 # NOTE 
 * Jangan lupa ganti nomor owner nya 
-* Di "ownerNumber" di index.js
+* Cari aja "ownerNumber" di index.js
+* Abis itu ganti bre
 * Soal nya self nya ngedeketin 
 * Owner biar bisa 
 * Di gunain bot nya !!

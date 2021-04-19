@@ -258,7 +258,7 @@ ${p}➸ ${prefix}public${p}
 ${p}➸ ${prefix}stat${p} 
 ${p}➸ ${prefix}removebg <reply img>${p}
 ${p}➸ ${prefix}stickerwm <nama|nama>${p}
-${p}➸ ${prefix}sticker <reply media>${p}
+${p}➸ ${prefix}ستيكر <reply media>${p}
 ${p}➸ ${prefix}topdf <reply img>${p}
 
 ${p}「THANK TOO」${p}
@@ -378,7 +378,7 @@ ${p}✔ FAUZY - My Friends${p}
 			}
 		    break 
 		    case 's':
-			case 'sticker':
+			case 'ستيكر':
 				if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 					const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 					const media = await hazn.downloadAndSaveMediaMessage(encmedia, `./trash/${sender}`)
@@ -701,7 +701,7 @@ ${p}✔ FAUZY - My Friends${p}
           const stcBuffer = await stickerku.get()
           hazn.sendMessage(from, stcBuffer, sticker).catch(() => reply('error'))
           break  
-          case 'stickerbulet':
+          case 'ستيكر':
           const encmedia1 = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace("quotedM","m")).message.extendedTextMessage.contextInfo : mek
           const media1 = await hazn.downloadMediaMessage(encmedia1, 'buffer') 
           const patrcik = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo

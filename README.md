@@ -28,6 +28,11 @@
 > npm i
 > node index
 ```
+### Kalo Bot Nya Error
+ganti versi bamlieys 
+```bash
+> npm install @adiwajshing/baileys@3.4.1
+```
 
 # Depencesion(pc)
 * [Node.js](https://nodejs.org/en/)
